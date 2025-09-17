@@ -1,0 +1,7 @@
+output_minor_iterations_frequency 10;
+minor_iteration_limit    50;
+lemke_max_iteration_limit  50;
+*lemke_start_type advanced;
+*crash_iteration_limit 10;
+*crash_searchtype arc;
+*gradient_searchtype arc;

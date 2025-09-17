@@ -1,0 +1,41 @@
+***HRR: dumping output to individual csv files
+
+$iftheni "%simName%" == "Baseline"
+   $$call   gdxdump %oDir%\%simName%.gdx symb=rgdpmp0       format=csv cDim=y output=%oDir%\csv\%simName%_rgdpmp0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=gdpmp0        format=csv cDim=y output=%oDir%\csv\%simName%_gdpmp0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xw0           format=csv cDim=y output=%oDir%\csv\%simName%_xw0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xp0           format=csv cDim=y output=%oDir%\csv\%simName%_xp0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=pat0          format=csv cDim=y output=%oDir%\csv\%simName%_pat0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=kv0           format=csv cDim=y output=%oDir%\csv\%simName%_kv0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xs0           format=csv cDim=y output=%oDir%\csv\%simName%_xs0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=pmt0          format=csv cDim=y output=%oDir%\csv\%simName%_pmt0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xm0           format=csv cDim=y output=%oDir%\csv\%simName%_xm0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=kstock0       format=csv cDim=y output=%oDir%\csv\%simName%_kstock0.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xa0           format=csv cDim=y output=%oDir%\csv\%simName%_xa0.csv   
+$endif   
+   $$call   gdxdump %oDir%\%simName%.gdx symb=rgdpmp        format=csv cDim=y output=%oDir%\csv\%simName%_rgdpmp.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xw            format=csv cDim=y output=%oDir%\csv\%simName%_xw.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xp            format=csv cDim=y output=%oDir%\csv\%simName%_xp.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=ctax          format=csv cDim=y output=%oDir%\csv\%simName%_ctax.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=emitotrep     format=csv cDim=y output=%oDir%\csv\%simName%_emitotrep.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=emitotact     format=csv cDim=y output=%oDir%\csv\%simName%_emitotact.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xwtot         format=csv cDim=y output=%oDir%\csv\%simName%_xwtot.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xwtoti        format=csv cDim=y output=%oDir%\csv\%simName%_xwtoti.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgCons       format=csv cDim=y output=%oDir%\csv\%simName%_NrgCons.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgConsi      format=csv cDim=y output=%oDir%\csv\%simName%_NrgConsi.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgConsih     format=csv cDim=y output=%oDir%\csv\%simName%_NrgConsih.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgIntC       format=csv cDim=y output=%oDir%\csv\%simName%_NrgIntC.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgIntA       format=csv cDim=y output=%oDir%\csv\%simName%_NrgIntA.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=ElyMix        format=csv cDim=y output=%oDir%\csv\%simName%_ElyMix.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=pely          format=csv cDim=y output=%oDir%\csv\%simName%_Pely.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=Mshr          format=csv cDim=y output=%oDir%\csv\%simName%_Mshr.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=Mshri         format=csv cDim=y output=%oDir%\csv\%simName%_Mshri.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=pat           format=csv cDim=y output=%oDir%\csv\%simName%_pat.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=gdpmp         format=csv cDim=y output=%oDir%\csv\%simName%_gdpmp.csv   
+   $$call   gdxdump %oDir%\%simName%.gdx symb=kv_rep        format=csv cDim=y output=%oDir%\csv\%simName%_kv_rep.csv   
+   $$call   gdxdump %oDir%\%simName%.gdx symb=NrgAcc        format=csv cDim=y output=%oDir%\csv\%simName%_NrgAcc.csv   
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xs            format=csv cDim=y output=%oDir%\csv\%simName%_xs.csv 
+   $$call   gdxdump %oDir%\%simName%.gdx symb=pmt           format=csv cDim=y output=%oDir%\csv\%simName%_pmt.csv  
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xm            format=csv cDim=y output=%oDir%\csv\%simName%_xm.csv  
+   $$call   gdxdump %oDir%\%simName%.gdx symb=kstock        format=csv cDim=y output=%oDir%\csv\%simName%_kstock.csv
+   $$call   gdxdump %oDir%\%simName%.gdx symb=xa            format=csv cDim=y output=%oDir%\csv\%simName%_xa.csv

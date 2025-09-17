@@ -1,0 +1,6 @@
+eprhs   1.E-5
+epopt   1.E-5
+barqcpepcomp 1.E-8
+barepcomp    1.E-8
+quality true
+rerun no

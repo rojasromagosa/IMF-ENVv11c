@@ -1,0 +1,1 @@
+$IF EXIST "%1\%3.har" $call "har2gdx %1\%3.har %2\%3.gdx"
